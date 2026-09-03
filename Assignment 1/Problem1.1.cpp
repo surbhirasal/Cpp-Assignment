@@ -34,7 +34,7 @@ int main()
     {
     case -1:
         cout << "Status : SENSOR_ERROR" << endl;
-        cout << "Action : Sensor fault(Check Wiring)" << endl;
+        cout << "Action : Sensor fault-Check Wiring" << endl;
         break;
 
     case 0:
@@ -44,17 +44,17 @@ int main()
 
     case 1:
         cout << "Status : WARNING" << endl;
-        cout << "Action : Alert " << endl;
+        cout << "Action : Alert Sent to supervisor" << endl;
         break;
 
     case 2:
         cout << "Status : CRITICAL" << endl;
-        cout << "Action : system triggered" << endl;
+        cout << "Action : Cooling system triggered" << endl;
         break;
 
     case 3:
         cout << "Status : SHUTDOWN" << endl;
-        cout << "Action : Emergency shutdown " << endl;
+        cout << "Action : Emergency shutdown initiated " << endl;
         break;
     }
 
